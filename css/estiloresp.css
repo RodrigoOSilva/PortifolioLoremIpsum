@@ -1,0 +1,291 @@
+body nav{
+    font-family: "Open Sans", Helvetica, arial, sans-serif;
+    background-color: #4d4d4d;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: .9em;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, arial;
+    font-weight: 600;
+}
+
+.botao {
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4d4d4d;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/*CABEÇALHO*/
+
+header {
+    background-image:url('../_imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    margin-bottom: 2em; /*1em=16px por padrão*/
+}
+
+header a#vermais {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: .9em;
+    background-color: #8f2faf;
+    padding: 10px 30px;
+    color: #f1f1f1;
+}
+
+/*SOBRE*/
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #8f2faf;
+    color: #f1f1f1;
+}
+ 
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    background-color: #f1f1f1;
+    color: rgb(111,111,111);
+    padding: 10px 30px;
+    font-size: .9em;
+}
+/*SERVIÇOS*/
+
+#servicos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#servicos nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*PORTIFOLIO*/
+
+#portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#portifolio h2 {
+    margin-bottom: 20px;
+}
+
+#portifolio img {
+    width: 100%;
+}
+
+/*CONTATO*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/*RODAPÉ*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    color: #f1f1f1;
+}
+
+footer p{
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+/*--------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+    /*NAVEGAÇÃO*/
+    
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    
+    /*cabeçalho*/
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    
+ /*Sobre*/
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    
+    }
+
+     /*servicos*/
+    
+    #servicos {
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #servicos div {
+         flex-grow: 1;
+        flex-basis: 150px;
+        padding: 10px;
+    }
+    
+    #portifolio h2 {
+        width: 100%;
+        text-align: center; 
+        
+    }
+    
+    #portifolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #portifolio img{
+        max-width: 33.333333333333333333%;
+        border-image: none;
+    }
+    
+    /*CONTATO*/
+    
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    #contato h2, #contato p {
+        width: 100%;
+    }
+    
+    
+    a {
+        color: dimgrey;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
