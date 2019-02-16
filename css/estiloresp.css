@@ -59,7 +59,7 @@ nav ul li a {
 /*CABEÇALHO*/
 
 header {
-    background-image:url('../_imagens/fundo.jpg');
+    background-image:url('../imagens/fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -262,30 +262,3 @@ footer p{
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
