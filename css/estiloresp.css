@@ -56,6 +56,10 @@ nav ul li a {
     color: #f1f1f1;
 }
 
+nav ul li:hover {
+    background-color: #8f2faf;
+}
+
 /*CABEÇALHO*/
 
 header {
@@ -81,7 +85,11 @@ header a#vermais {
     font-size: .9em;
     background-color: #8f2faf;
     padding: 10px 30px;
-    color: #f1f1f1;
+    color: #f1f1f1; 
+}
+
+header a#vermais:hover{
+    background-color: #4d4d4d
 }
 
 /*SOBRE*/
@@ -109,6 +117,10 @@ header a#vermais {
     padding: 10px 30px;
     font-size: .9em;
 }
+
+#sobre a:hover {
+    background-color: #fff;
+}
 /*SERVIÇOS*/
 
 #servicos {
@@ -118,6 +130,10 @@ header a#vermais {
     text-align: center;
     align-items: center;
 }
+#servicos div:hover {
+    background-color: #f1f1f1;
+}
+
 
 #servicos nav {
     display: flex;
@@ -138,6 +154,10 @@ header a#vermais {
 
 #portifolio h2 {
     margin-bottom: 20px;
+}
+
+#portifolio img:hover {
+    opacity: 0.9
 }
 
 #portifolio img {
